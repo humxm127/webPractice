@@ -4,7 +4,8 @@
 - jquery
 - javascript
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 연습1
+[연습1](ouic/ouic.html)
 
 ### Markdown
 
