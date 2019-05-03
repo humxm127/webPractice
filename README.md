@@ -6,7 +6,7 @@
 ## Work List
 
 **2019.05**
-> **[KAIST OUIC](/kaistouic.md)**
+> **[KAIST OUIC](/kaistOuic.md)**
 
 ```html
 <!DOCTYPE HTML>
