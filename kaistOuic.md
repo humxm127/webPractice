@@ -17,3 +17,6 @@ SITE URL : http://ouic.kaist.ac.kr
 * 화면전환 속도나 방향, 요소디자인(버튼 등..)에  대한 커스터마이징 가능
 * 모바일/웹 모두에서 마우스와 터치에 반응 : **반응형**에 최적화 
 * 소스가 간결하고 가벼우나 기능이 제한적
+
+#### 1-1. bxSlider 설치방법
+1. [bxSlider](http://bxslider.com/) 홈페이지에서 `install` 또는 `Click here to install` 버튼 클릭
