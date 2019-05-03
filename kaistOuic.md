@@ -26,3 +26,13 @@ SITE URL : http://ouic.kaist.ac.kr
 ![bxSlider_download](/comment/prac01/comment02.jpg)
 
 3. 내려받은 파일의 압축을 풀어 사용중인 프로젝트 폴더로 파일 이동시키기 : 'css/images/js' 파일 분리해서 각각의 폴더로 이동  
+
+#### 1-2. bxSlider 기본 골격
+1. `<head></head>`태그 안에 슬라이더 실행에 필요한 외부 파일 불러오기
+```html
+ <head>
+   <link rel="stylesheet" href="본인의 css 파일경로/jquery.bxslider.css"> /* 슬라이더 스타일시트 */
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> /* 최신버전 확인하기 */
+   <script src="/path/to/jquery.bxslider.min.js"></script> /* bxSlider 본체 */
+</head>
+```
