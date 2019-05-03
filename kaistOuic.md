@@ -1,3 +1,3 @@
 # Practice01. "KAIST OUIC"
 
-![KAIST OUIC](/kaist_ouic_img.jpg)
+![KAIST OUIC](/mainVisual/prac01_img.jpg)
