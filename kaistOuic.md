@@ -19,4 +19,6 @@ SITE URL : http://ouic.kaist.ac.kr
 * 소스가 간결하고 가벼우나 기능이 제한적
 
 #### 1-1. bxSlider 설치방법
-1. [bxSlider](http://bxslider.com/) 홈페이지에서 `install` 또는 `Click here to install` 버튼 클릭
+1. [bxSlider](http://bxslider.com/) 홈페이지에서 `install` 또는 `Click here to install` 버튼 클릭  
+
+![bxSlider_click](/comment/prac01/comment01.jpg)
