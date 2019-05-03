@@ -7,13 +7,3 @@
 ## Work List
 2019.05
 > **[KAIST OUIC](/kaistOuic.md)**
-
-```html
-<!DOCTYPE HTML>
-<html>
-<head>
-</head>
-<body>
-</body>
-</html>
-```
