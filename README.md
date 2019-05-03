@@ -10,6 +10,8 @@
 
 > **[KAIST OUIC](ouic/ouic.html)**
 
+> **[연습1이동](practice01.md)**
+
 ```html
 <!DOCTYPE HTML>
 <html>
