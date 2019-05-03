@@ -29,6 +29,7 @@ SITE URL : http://ouic.kaist.ac.kr
 
 #### 1-2. bxSlider 기본 골격
 1. `<head></head>`태그 안에 슬라이더 실행에 필요한 외부 파일 불러오기  
+
 ```html
  <head>
    <link rel="stylesheet" href="본인의 css 파일경로/jquery.bxslider.css"> /* 슬라이더 스타일시트 */
