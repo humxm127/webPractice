@@ -19,11 +19,11 @@ SITE URL : http://ouic.kaist.ac.kr
 * 소스가 간결하고 가벼우나 기능이 제한적
 
 #### 1-1. bxSlider 설치방법
-1. [bxSlider](http://bxslider.com/) 홈페이지에서 *install* 또는 *Click here to install* 버튼 클릭
+1. [bxSlider](http://bxslider.com/) 홈페이지에서 *install* 또는 *Click here to install* 버튼 클릭  
 
 ![bxSlider_click](/comment/prac01/comment01.jpg)  
 
-2. install 페이지에서 *Download jquery.bxslider.zip here*를 클릭해서 플러그인 파일 내려받기
+2. install 페이지에서 *Download jquery.bxslider.zip here*를 클릭해서 플러그인 파일 내려받기  
 
 ![bxSlider_download](/comment/prac01/comment02.jpg)  
 
