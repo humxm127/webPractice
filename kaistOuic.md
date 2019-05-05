@@ -30,32 +30,32 @@ SITE URL : http://ouic.kaist.ac.kr
 #### 1-2. bxSlider 기본 골격
 1. `<head></head>`태그 안에 슬라이더 실행에 필요한 외부 파일 불러오기  
 ```html
- <head>
-   <link rel="stylesheet" href="본인의 css 파일경로/jquery.bxslider.css"> /* 슬라이더 스타일시트 */
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> /* 최신버전 확인하기 */
-   <script src="/path/to/jquery.bxslider.min.js"></script> /* bxSlider 본체 */
+<head>
+  <link rel="stylesheet" href="본인의 css 파일경로/jquery.bxslider.css"> /* 슬라이더 스타일시트 */
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> /* 최신버전 확인하기 */
+  <script src="/path/to/jquery.bxslider.min.js"></script> /* bxSlider 본체 */
 </head>
 ```  
 2. HTML파일에 'slide' 골격잡기(id명 또는 class명 지정해주기)  
 ```html
-  <body>
-    <div class="slideArea">
-      <ul class="slider">
-        <li>I am a slide01.</li>
-        <li>I am a slide02.</li>
-      </ul>
-    </div>
-  </body>
+<body>
+  <div class="slideArea">
+    <ul class="slider">
+      <li>I am a slide01.</li>
+      <li>I am a slide02.</li>
+    </ul>
+  </div>
+</body>
 ```  
 3. script파일에 'slide'코드 넣어주기  
 ```javascript
-  <script>
-    $(document).ready(function(){
-      $('.slider').bxslider({
-        /* 옵션을 줘야한다면 여기에 추가 */
-      });
+<script>
+  $(document).ready(function(){
+    $('.slider').bxslider({
+      /* 옵션을 줘야한다면 여기에 추가 */
     });
-  </script>
+  });
+</script>
 ```  
 
 #### 1-3. bxSlider 옵션(주로 사용한 옵션 위주)  
