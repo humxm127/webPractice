@@ -30,6 +30,7 @@ SITE URL : http://ouic.kaist.ac.kr
 #### 1-2. bxSlider 기본 골격
 
 1. `<head></head>`태그 안에 슬라이더 실행에 필요한 외부 파일 불러오기  
+
 ```html
 <head>
   <link rel="stylesheet" href="본인의 css 파일경로/jquery.bxslider.css"> /* 슬라이더 스타일시트 */
@@ -37,7 +38,8 @@ SITE URL : http://ouic.kaist.ac.kr
   <script src="/path/to/jquery.bxslider.min.js"></script> /* bxSlider 본체 */
 </head>
 ```
-2. HTML파일에 'slide' 골격잡기(id명 또는 class명 지정해주기)
+2. HTML파일에 'slide' 골격잡기(id명 또는 class명 지정해주기)  
+
 ```html
 <body>
   <div class="slideArea">
@@ -49,6 +51,7 @@ SITE URL : http://ouic.kaist.ac.kr
 </body>
 ```
 3. script파일에 'slide'코드 넣어주기  
+
 ```javascript
 <script>
   $(document).ready(function(){
@@ -61,7 +64,7 @@ SITE URL : http://ouic.kaist.ac.kr
 
 #### 1-3. bxSlider 옵션(주로 사용한 옵션 위주)  
 | Name | Default(기본값) | Description | 
-|------|-----------------|-------------| 
+|---|---|---| 
 | mode | horizontal,vertical,fade | 슬라이드 이동방향 설정 | 
 | speed | 500 | 슬라이드 전환 시 속도 설정 | 
 | pause | 4000 | 자동재생 중 슬라이드별로 멈추는 시간 | 
