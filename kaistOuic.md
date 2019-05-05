@@ -53,7 +53,7 @@ SITE URL : http://ouic.kaist.ac.kr
 ```
 ３. script파일에 'slide'코드 넣어주기  
 
-```javascript
+```js
 <script>
   $(document).ready(function(){
     $('.slider').bxslider({
