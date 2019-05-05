@@ -29,7 +29,7 @@ SITE URL : http://ouic.kaist.ac.kr
 
 #### 1-2. bxSlider 기본 골격
 
-1. `<head></head>`태그 안에 슬라이더 실행에 필요한 외부 파일 불러오기  
+１. `<head></head>`태그 안에 슬라이더 실행에 필요한 외부 파일 불러오기  
 
 ```html
 <head>
@@ -38,7 +38,7 @@ SITE URL : http://ouic.kaist.ac.kr
   <script src="/path/to/jquery.bxslider.min.js"></script> /* bxSlider 본체 */
 </head>
 ```
-2. HTML파일에 'slide' 골격잡기(id명 또는 class명 지정해주기)  
+２. HTML파일에 'slide' 골격잡기(id명 또는 class명 지정해주기)  
 
 ```html
 <body>
@@ -50,7 +50,7 @@ SITE URL : http://ouic.kaist.ac.kr
   </div>
 </body>
 ```
-3. script파일에 'slide'코드 넣어주기  
+３. script파일에 'slide'코드 넣어주기  
 
 ```javascript
 <script>
@@ -85,8 +85,8 @@ SITE URL : http://ouic.kaist.ac.kr
 
 ## table
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Name | Default(기본값) | Description | 
+|---|---|---| 
+|   |   |   | 
+|   |   |   | 
+|   |   |   |
