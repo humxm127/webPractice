@@ -35,7 +35,7 @@ SITE URL : http://ouic.kaist.ac.kr
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> /* 최신버전 확인하기 */
    <script src="/path/to/jquery.bxslider.min.js"></script> /* bxSlider 본체 */
 </head>
-```
+```  
 
 2. HTML파일에 'slide' 골격잡기(id명 또는 class명 지정해주기)  
 ```html
@@ -47,7 +47,7 @@ SITE URL : http://ouic.kaist.ac.kr
       </ul>
     </div>
   </body>
-```
+```  
 
 3. script파일에 'slide'코드 넣어주기  
 ```javascript
@@ -61,22 +61,22 @@ SITE URL : http://ouic.kaist.ac.kr
 ```
 
 #### 1-3. bxSlider 옵션(주로 사용한 옵션 위주)
-Name | Default(기본값) | Description  
------|---------|------------  
-mode | horizontal,vertical,fade | 슬라이드 이동방향 설정  
-speed | 500 | 슬라이드 전환 시 속도 설정  
-pause | 4000 | 자동재생 중 슬라이드별로 멈추는 시간  
-slideMargin | 0 | 슬라이드 사이의 마진 값  
-pager | true | 슬라이드 개수만큼 하단에 동그라미들 생성(다른 모양으로 디자인 변경 가능)  
-pagerType | full,short | full:기본형(슬라이드 개수만큼 동그라미 생성) / short:숫자(현재슬라이드 번호/전체 슬라이드 개수)  
-controls | true | next/prev 컨트롤 버튼 생성  
-nextText | Next | next버튼에 다른 텍스트를 넣어줄 때  
-prevText | Prev | prev버튼에 다른 텍스트를 넣어줄 때  
-nextSlider | null | next버튼에 다른 요소(ex.아이콘)를 넣어줄 때  
-prevSldier | null | prev버튼에 다른 요소(ex.아이콘)를 넣어줄 때  
-autoControls | false | true로 설정할 경우, **start/stop 아이콘 생성**  
-auto | false | true로 설정할 경우, **슬라이드 자동재생**  
-minSlides | 1 | 보여지는 슬라이드 개수의 최소값  
-maxSlides | 1 | 보여지는 슬라이드 개수의 최대값  
-moveSlides | 0 | 슬라이드 한번 당 넘어갈 슬라이드 개수(최소값<슬라이드개수<최대값)  
-slideWidth | 0 | 각 슬라이드의 가로폭  
+| Name | Default(기본값) | Description |
+|------|-----------------|-------------|
+| mode | horizontal,vertical,fade | 슬라이드 이동방향 설정 |
+| speed | 500 | 슬라이드 전환 시 속도 설정 |
+| pause | 4000 | 자동재생 중 슬라이드별로 멈추는 시간 |
+| slideMargin | 0 | 슬라이드 사이의 마진 값 |
+| pager | true | 슬라이드 개수만큼 하단에 동그라미들 생성(다른 모양으로 디자인 변경 가능) |
+| pagerType | full,short | full:기본형(슬라이드 개수만큼 동그라미 생성) / short:숫자(현재슬라이드 번호/전체 슬라이드 개수) |
+| controls | true | next/prev 컨트롤 버튼 생성 |
+| nextText | Next | next버튼에 다른 텍스트를 넣어줄 때 |
+| prevText | Prev | prev버튼에 다른 텍스트를 넣어줄 때 |
+| nextSlider | null | next버튼에 다른 요소(ex.아이콘)를 넣어줄 때 |
+| prevSldier | null | prev버튼에 다른 요소(ex.아이콘)를 넣어줄 때 |
+| autoControls | false | true로 설정할 경우, **start/stop 아이콘 생성** |
+| auto | false | true로 설정할 경우, **슬라이드 자동재생** |
+| minSlides | 1 | 보여지는 슬라이드 개수의 최소값 |
+| maxSlides | 1 | 보여지는 슬라이드 개수의 최대값 |
+| moveSlides | 0 | 슬라이드 한번 당 넘어갈 슬라이드 개수(최소값<슬라이드개수<최대값) |
+| slideWidth | 0 | 각 슬라이드의 가로폭 |
