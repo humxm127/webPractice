@@ -77,7 +77,7 @@ SITE URL : http://ouic.kaist.ac.kr
 | nextText | Next | next버튼에 다른 텍스트를 넣어줄 때 | 
 | prevText | Prev | prev버튼에 다른 텍스트를 넣어줄 때 | 
 | nextSlider | null | next버튼에 다른 요소(ex.아이콘)를 넣어줄 때 | 
-| prevSldier | null | prev버튼에 다른 요소(ex.아이콘)를 넣어줄 때 | 
+| prevSlider | null | prev버튼에 다른 요소(ex.아이콘)를 넣어줄 때 | 
 | autoControls | false | true로 설정할 경우, **start/stop 아이콘 생성** | 
 | auto | false | true로 설정할 경우, **슬라이드 자동재생** | 
 | minSlides | 1 | 보여지는 슬라이드 개수의 최소값 | 
