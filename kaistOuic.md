@@ -35,8 +35,7 @@ SITE URL : http://ouic.kaist.ac.kr
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> /* 최신버전 확인하기 */
    <script src="/path/to/jquery.bxslider.min.js"></script> /* bxSlider 본체 */
 </head>
-```  
-
+```
 2. HTML파일에 'slide' 골격잡기(id명 또는 class명 지정해주기)  
 ```html
   <body>
@@ -47,8 +46,7 @@ SITE URL : http://ouic.kaist.ac.kr
       </ul>
     </div>
   </body>
-```  
-
+```
 3. script파일에 'slide'코드 넣어주기  
 ```javascript
   <script>
