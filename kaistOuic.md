@@ -84,3 +84,17 @@ SITE URL : http://ouic.kaist.ac.kr
 | maxSlides | 1 | 보여지는 슬라이드 개수의 최대값 | 
 | moveSlides | 0 | 슬라이드 한번 당 넘어갈 슬라이드 개수(최소값<슬라이드개수<최대값) | 
 | slideWidth | 0 | 각 슬라이드의 가로폭 |
+
+### 2. 가상 요소 선택자 ::before / ::after
+
+- 정의:요소의 특정 부분에 스타일을 적용하기 위해 사용  
+１. ::before - 요소의 시작부분에 콘텐츠 추가  
+２. ::after - 요소의 끝부분에 콘텐츠 추가  
+**hover와 before/after 선택자는 동시에 사용 가능. 하지만, 먼저 hover값을 주고 before/after값을 그 다음에 주어야 한다.**
+
+**content속성을 반드시 사용해야한다!**
+> content 영역에는 3가지를 넣어줄 수 있다. (text,image,해당 class명)
+> 1.text : content:"문자열";  
+> 2.images : content:url("jb_dot.png");  
+> 3.해당 class명 : content:attr(class);
+> **content속성은 빈칸으로라도 꼭 써줘야한다.(content:"";)**
