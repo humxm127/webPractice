@@ -93,8 +93,9 @@ SITE URL : http://ouic.kaist.ac.kr
 **hover와 before/after 선택자는 동시에 사용이 가능하지만, 먼저 hover값을 주고 before/after값을 그 다음에 주어야 한다.**
 
 **content속성을 반드시 사용해야한다!**  
-> content 영역에는 3가지를 넣어줄 수 있다. (text,image,해당 class명)  
+> content 영역에는 3가지를 넣어줄 수 있다.(text,image,해당 class명)  
+
 > 1.text : content:"문자열";  
 > 2.images : content:url("jb_dot.png");  
-> 3.해당 class명 : content:attr(class);
+> 3.해당 class명 : content:attr(class);  
 > **content속성은 빈칸으로라도 꼭 써줘야한다.(content:"";)**
