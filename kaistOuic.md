@@ -94,7 +94,6 @@ SITE URL : http://ouic.kaist.ac.kr
 
 **content속성을 반드시 사용해야한다!**  
 > content 영역에는 3가지를 넣어줄 수 있다.(text,image,해당 class명)  
-
 > 1.text : content:"문자열";  
 > 2.images : content:url("jb_dot.png");  
 > 3.해당 class명 : content:attr(class);  
