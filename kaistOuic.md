@@ -72,7 +72,7 @@ SITE URL : http://ouic.kaist.ac.kr
 | pause | 4000 | 자동재생 중 슬라이드별로 멈추는 시간 | 
 | slideMargin | 0 | 슬라이드 사이의 마진 값 | 
 | pager | true | 슬라이드 개수만큼 하단에 동그라미들 생성(다른 모양으로 디자인 변경 가능) | 
-| pagerType | full,short | full:기본형(슬라이드 개수만큼 동그라미 생성) / short:숫자(현재슬라이드 번호/전체 슬라이드 개수) | 
+| pagerType | full,short | full:기본형(슬라이드 개수만큼 동그라미 생성)  short:숫자(현재슬라이드 번호/전체 슬라이드 개수) | 
 | controls | true | next/prev 컨트롤 버튼 생성 | 
 | nextText | Next | next버튼에 다른 텍스트를 넣어줄 때 | 
 | prevText | Prev | prev버튼에 다른 텍스트를 넣어줄 때 | 
@@ -82,7 +82,7 @@ SITE URL : http://ouic.kaist.ac.kr
 | auto | false | true로 설정할 경우, **슬라이드 자동재생** | 
 | minSlides | 1 | 보여지는 슬라이드 개수의 최소값 | 
 | maxSlides | 1 | 보여지는 슬라이드 개수의 최대값 | 
-| moveSlides | 0 | 슬라이드 한번 당 넘어갈 슬라이드 개수(최소값<슬라이드개수<최대값) | 
+| moveSlides | 0 | 슬라이드 한번 당 넘어갈 슬라이드 개수  (최소값<슬라이드개수<최대값) | 
 | slideWidth | 0 | 각 슬라이드의 가로폭 |
 
 ### 2. 가상 요소 선택자 ::before / ::after
@@ -94,7 +94,7 @@ SITE URL : http://ouic.kaist.ac.kr
 hover와 before/after 선택자는 동시에 사용이 가능하지만, 먼저 hover값을 주고 before/after값을 그 다음에 주어야 한다.
 ```
 
-**content속성을 반드시 써주어야한다! 빈칸이라도 꼭 사용!(content:"";)**  
+**content속성을 반드시 써주어야한다! 빈칸이라도 꼭 사용!(content:" ";)**  
 > "content 영역에는 3가지를 넣어줄 수 있다.(text,image,해당 class명)"  
 >   1. text : content:"문자열";  
 >   2. images : content:url("jb_dot.png");  
