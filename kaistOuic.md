@@ -73,6 +73,7 @@ SITE URL : http://ouic.kaist.ac.kr
 | slideMargin | 0 | 슬라이드 사이의 마진 값 | 
 | pager | true | 슬라이드 개수만큼 하단에 동그라미들 생성(다른 모양으로 디자인 변경 가능) | 
 | pagerType | full,short | full:기본형(슬라이드 개수만큼 동그라미 생성) / short:숫자(현재슬라이드 번호/전체 슬라이드 개수) | 
+| pagerCustom | null | 사용자가 디자인 한 pager 적용(html에 변경할 pager 추가한 후, null값에 id/class명 삽입) | 
 | controls | true | next/prev 컨트롤 버튼 생성 | 
 | nextText | Next | next버튼에 다른 텍스트를 넣어줄 때 | 
 | prevText | Prev | prev버튼에 다른 텍스트를 넣어줄 때 | 
